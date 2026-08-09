@@ -39,7 +39,7 @@ Status:
 
 <p align="center">
 
-<a href="https://my-website-psi-lovat.vercel.app/">
+<a href="https://gautam-portfolio-self.vercel.app/">
 <img src="https://img.shields.io/badge/PORTFOLIO-ff4db8?style=for-the-badge&logo=googlechrome&logoColor=white">
 </a>
 
@@ -58,7 +58,7 @@ Status:
 
 <p align="center">
 
-<a href="https://my-website-psi-lovat.vercel.app/">
+<a href="https://gautam-portfolio-self.vercel.app/">
 <img src="https://img.shields.io/badge/🌐%20PORTFOLIO-ff4db8?style=for-the-badge">
 </a>
 
