@@ -1,45 +1,232 @@
-
-<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="320" viewBox="0 0 1200 320"
+     xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#9c5b17"/>
-      <stop offset="50%" stop-color="#71334f"/>
-      <stop offset="100%" stop-color="#9b245e"/>
+
+    <linearGradient id="mainGradient"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4db8"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
     </linearGradient>
+
+    <linearGradient id="background"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08080a"/>
+      <stop offset="50%" stop-color="#17101d"/>
+      <stop offset="100%" stop-color="#08080a"/>
+    </linearGradient>
+
+    <filter id="glow"
+            x="-50%" y="-50%"
+            width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow"
+            x="-50%" y="-50%"
+            width="200%" height="200%">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"
+            fill="none"
+            stroke="#ffffff"
+            stroke-opacity="0.045"
+            stroke-width="1"/>
+    </pattern>
+
   </defs>
 
-  <rect width="1200" height="300" fill="#171717"/>
+  <!-- Background -->
+  <rect width="1200"
+        height="320"
+        rx="18"
+        fill="url(#background)"/>
 
-  <rect
-    x="25"
-    y="25"
-    width="1150"
-    height="250"
-    rx="4"
-    fill="url(#gradient)"
-  />
+  <!-- Background glow -->
+  <circle cx="150"
+          cy="100"
+          r="140"
+          fill="#ff4db8"
+          opacity="0.12"
+          filter="url(#softGlow)"/>
 
-  <text
-    x="600"
-    y="130"
-    text-anchor="middle"
-    font-family="Arial, sans-serif"
-    font-size="58"
-    font-weight="bold"
-    fill="white">
+  <circle cx="1050"
+          cy="220"
+          r="170"
+          fill="#8b5cf6"
+          opacity="0.13"
+          filter="url(#softGlow)"/>
+
+  <!-- Grid -->
+  <rect width="1200"
+        height="320"
+        fill="url(#grid)"/>
+
+  <!-- Main border -->
+  <rect x="18"
+        y="18"
+        width="1164"
+        height="284"
+        rx="16"
+        fill="none"
+        stroke="url(#mainGradient)"
+        stroke-width="3"
+        filter="url(#glow)"/>
+
+  <!-- Terminal bar -->
+  <rect x="45"
+        y="42"
+        width="1110"
+        height="36"
+        rx="8"
+        fill="#111113"
+        stroke="#2a2a2f"
+        stroke-width="1"/>
+
+  <!-- Terminal buttons -->
+  <circle cx="70" cy="60" r="6" fill="#ff5f57"/>
+  <circle cx="92" cy="60" r="6" fill="#febc2e"/>
+  <circle cx="114" cy="60" r="6" fill="#28c840"/>
+
+  <!-- Terminal title -->
+  <text x="600"
+        y="66"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="13"
+        fill="#777777">
+    gautam@developer: ~/portfolio
+  </text>
+
+  <!-- Command -->
+  <text x="105"
+        y="125"
+        font-family="monospace"
+        font-size="18"
+        fill="#ff4db8">
+    &gt;
+  </text>
+
+  <text x="130"
+        y="125"
+        font-family="monospace"
+        font-size="18"
+        fill="#c4c4c4">
+    whoami
+  </text>
+
+  <!-- Name -->
+  <text x="600"
+        y="180"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="62"
+        font-weight="700"
+        fill="white"
+        filter="url(#glow)">
     Gautam Yadav
   </text>
 
-  <text
-    x="600"
-    y="185"
-    text-anchor="middle"
-    font-family="monospace"
-    font-size="25"
-    font-weight="bold"
-    fill="#ff4db8">
-    Software Developer | Building Cool Stuff
+  <!-- Underline -->
+  <rect x="420"
+        y="198"
+        width="360"
+        height="3"
+        rx="2"
+        fill="url(#mainGradient)">
+    <animate attributeName="width"
+             values="300;400;300"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Main title -->
+  <text x="600"
+        y="235"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="21"
+        font-weight="bold"
+        fill="#ff4db8">
+    Software Engineer | Full Stack Developer | AI/ML Enthusiast
   </text>
+
+  <!-- Tech stack -->
+  <text x="600"
+        y="265"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="15"
+        fill="#bdbdbd">
+    Java  •  Python  •  React  •  Node.js  •  AI/ML
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="600"
+        y="280"
+        width="9"
+        height="16"
+        rx="1"
+        fill="#ff4db8">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative nodes -->
+  <circle cx="70"
+          cy="245"
+          r="3"
+          fill="#ff4db8"
+          filter="url(#glow)"/>
+
+  <circle cx="1130"
+          cy="105"
+          r="3"
+          fill="#8b5cf6"
+          filter="url(#glow)"/>
+
+  <circle cx="1080"
+          cy="270"
+          r="4"
+          fill="#ff4db8"
+          filter="url(#glow)"/>
+
+  <circle cx="120"
+          cy="105"
+          r="4"
+          fill="#8b5cf6"
+          filter="url(#glow)"/>
+
+  <!-- Decorative lines -->
+  <line x1="65"
+        y1="275"
+        x2="180"
+        y2="275"
+        stroke="#ff4db8"
+        stroke-opacity="0.5"
+        stroke-width="1"/>
+
+  <line x1="1020"
+        y1="275"
+        x2="1135"
+        y2="275"
+        stroke="#8b5cf6"
+        stroke-opacity="0.5"
+        stroke-width="1"/>
 
 </svg>
