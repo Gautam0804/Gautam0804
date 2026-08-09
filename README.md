@@ -12,13 +12,14 @@
 
 ---
 
-## > about-gautam.exe
+## > About
 
 <pre>
-name: Gautam Yadav
-role: Software Developer
+Name: Gautam Yadav
+Role: Software Engineer | Full Stack Developer | AI/ML Enthusiast
 
-focus:
+Focus:
+  - Software Engineering
   - Full Stack Development
   - Java
   - Python
@@ -26,14 +27,14 @@ focus:
   - Data Structures & Algorithms
   - Problem Solving
 
-currently:
+Currently:
   - Building full-stack applications
-  - Solving DSA problems
-  - Improving software development skills
-  - Exploring AI/ML
+  - Solving DSA and competitive programming problems
+  - Developing AI/ML projects
+  - Improving software engineering skills
 
-status:
-  Open to Software Development Opportunities
+Status:
+  Open to Software Engineering, Software Development & AI/ML Opportunities
 </pre>
 
 <p align="center">
@@ -51,7 +52,6 @@ status:
 </a>
 
 </p>
-
 ---
 
 ## > find-me-here
