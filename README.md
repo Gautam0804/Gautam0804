@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" width="100%">
+  <img src="./banner.svg" width="100%" alt="Gautam Kumar Yadav Banner">
 </p>
 
 <h2 align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Gautam0804&label=PROFILE%20VIEWS&color=ff4db8&style=flat-square">
+  <img src="https://komarev.com/ghpvc/?username=Gautam0804&label=PROFILE%20VIEWS&color=ff4db8&style=flat-square" alt="Profile Views">
 </p>
 
 ---
@@ -38,7 +38,7 @@ Core Focus:
   - Problem Solving
 
 Currently:
-  - Building and upgrading production-oriented projects
+  - Building production-oriented software systems
   - Developing AI/ML applications
   - Strengthening backend and system design
   - Solving DSA and competitive programming problems
@@ -47,26 +47,6 @@ Open to:
   Software Engineering | Software Development | Full Stack | AI/ML Opportunities
 </pre>
 
-<p align="center">
-
-<a href="https://gautam-portfolio-self.vercel.app/">
-<img src="https://img.shields.io/badge/PORTFOLIO-ff4db8?style=for-the-badge&logo=googlechrome&logoColor=white">
-</a>
-
-<a href="https://www.linkedin.com/in/gautam-yadav-10922726b/">
-<img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-<a href="mailto:gautamcodesin@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
-<a href="https://github.com/Gautam0804">
-<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</p>
-
 ---
 
 ## > find-me-here
@@ -74,82 +54,86 @@ Open to:
 <p align="center">
 
 <a href="https://gautam-portfolio-self.vercel.app/">
-<img src="https://img.shields.io/badge/🌐%20PORTFOLIO-ff4db8?style=for-the-badge">
+<img src="https://img.shields.io/badge/PORTFOLIO-ff4db8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
 </a>
 
 <a href="https://www.linkedin.com/in/gautam-yadav-10922726b/">
-<img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+<a href="mailto:gautamcodesin@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+<a href="https://github.com/Gautam0804">
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 
 <a href="https://leetcode.com/u/Gautam_Yadav8/">
-<img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black">
+<img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
 </a>
 
 <a href="https://www.geeksforgeeks.org/profile/gautamcrn2z">
-<img src="https://img.shields.io/badge/GEEKSFORGEEKS-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white">
+<img src="https://img.shields.io/badge/GEEKSFORGEEKS-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks">
 </a>
 
 <a href="https://codeforces.com/profile/Gautam0804">
-<img src="https://img.shields.io/badge/CODEFORCES-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white">
+<img src="https://img.shields.io/badge/CODEFORCES-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces">
 </a>
 
 <a href="https://www.hackerrank.com/profile/gautamcodesin">
-<img src="https://img.shields.io/badge/HACKERRANK-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white">
+<img src="https://img.shields.io/badge/HACKERRANK-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank">
 </a>
 
 <a href="https://codolio.com/profile/Gautam0804">
-<img src="https://img.shields.io/badge/CODOLIO-6C5CE7?style=for-the-badge">
+<img src="https://img.shields.io/badge/CODOLIO-6C5CE7?style=for-the-badge" alt="Codolio">
 </a>
 
 </p>
 
 ---
 
-## > tech-stack.json
+# > tech-stack.json
 
-### languages
+### Languages
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=java,python,c,html,css,js">
+  <img src="https://skillicons.dev/icons?i=java,python,c,html,css,js" alt="Languages">
 </p>
 
-### frontend & backend
+### Frontend & Backend
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind" alt="Frontend and Backend">
 </p>
 
-### databases & tools
+### Databases & Tools
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis,docker,git,github,vscode">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis,docker,git,github,vscode" alt="Databases and Tools">
 </p>
 
 ### AI / ML
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,opencv">
-</p>
 
-<p align="center">
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
 
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white">
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
 
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
 
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white">
+<img src="https://img.shields.io/badge/XGBoost-1F425F?style=flat-square" alt="XGBoost">
 
-<img src="https://img.shields.io/badge/XGBoost-1F425F?style=flat-square">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
 
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/REST%20API-ff4db8?style=flat-square" alt="REST API">
 
-<img src="https://img.shields.io/badge/REST%20API-ff4db8?style=flat-square">
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square" alt="JWT">
 
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square">
+<img src="https://img.shields.io/badge/RBAC-6C5CE7?style=flat-square" alt="RBAC">
 
-<img src="https://img.shields.io/badge/RBAC-6C5CE7?style=flat-square">
-
-<img src="https://img.shields.io/badge/DSA-8b5cf6?style=flat-square">
+<img src="https://img.shields.io/badge/DSA-8b5cf6?style=flat-square" alt="DSA">
 
 </p>
 
@@ -160,7 +144,7 @@ Open to:
 <table>
 <tr>
 
-<td width="50%">
+<td width="50%" valign="top">
 
 <h3>🛡️ RiskForge</h3>
 
@@ -193,13 +177,13 @@ Risk & Alert Workflows
 
 <p align="center">
 <a href="https://github.com/Gautam0804/RiskForge">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="RiskForge">
 </a>
 </p>
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
 <h3>🚚 RouteX</h3>
 
@@ -231,7 +215,7 @@ Tracking & Alerts
 
 <p align="center">
 <a href="https://github.com/Gautam0804/route-x">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="RouteX">
 </a>
 </p>
 
@@ -241,7 +225,7 @@ Tracking & Alerts
 
 <tr>
 
-<td width="50%">
+<td width="50%" valign="top">
 
 <h3>🤖 PredictX</h3>
 
@@ -273,13 +257,13 @@ FastAPI ML Inference
 
 <p align="center">
 <a href="https://github.com/Gautam0804/PredictX">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="PredictX">
 </a>
 </p>
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
 <h3>🚦 AI Smart Traffic System</h3>
 
@@ -310,7 +294,7 @@ AI/ML-Based Traffic Intelligence
 
 <p align="center">
 <a href="YOUR-SMART-TRAFFIC-REPOSITORY">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="AI Smart Traffic System">
 </a>
 </p>
 
@@ -325,10 +309,13 @@ AI/ML-Based Traffic Intelligence
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/FULL--STACK-ff4db8?style=for-the-badge">
-<img src="https://img.shields.io/badge/BACKEND-6C5CE7?style=for-the-badge">
-<img src="https://img.shields.io/badge/AI%2FML-8b5cf6?style=for-the-badge">
-<img src="https://img.shields.io/badge/DATA%20STRUCTURES-4B5563?style=for-the-badge">
+<img src="https://img.shields.io/badge/FULL--STACK-ff4db8?style=for-the-badge" alt="Full Stack">
+
+<img src="https://img.shields.io/badge/BACKEND-6C5CE7?style=for-the-badge" alt="Backend">
+
+<img src="https://img.shields.io/badge/AI%2FML-8b5cf6?style=for-the-badge" alt="AI ML">
+
+<img src="https://img.shields.io/badge/DATA%20STRUCTURES-4B5563?style=for-the-badge" alt="Data Structures">
 
 </p>
 
@@ -348,23 +335,23 @@ AI/ML-Based Traffic Intelligence
 <p align="center">
 
 <a href="https://leetcode.com/u/Gautam_Yadav8/">
-<img src="https://img.shields.io/badge/LeetCode-Gautam_Yadav8-FFA116?style=for-the-badge&logo=leetcode&logoColor=black">
+<img src="https://img.shields.io/badge/LeetCode-Gautam_Yadav8-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
 </a>
 
 <a href="https://www.geeksforgeeks.org/profile/gautamcrn2z">
-<img src="https://img.shields.io/badge/GeeksforGeeks-Gautam-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white">
+<img src="https://img.shields.io/badge/GeeksforGeeks-Gautam-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks">
 </a>
 
 <a href="https://codeforces.com/profile/Gautam0804">
-<img src="https://img.shields.io/badge/Codeforces-Gautam0804-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white">
+<img src="https://img.shields.io/badge/Codeforces-Gautam0804-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces">
 </a>
 
 <a href="https://www.hackerrank.com/profile/gautamcodesin">
-<img src="https://img.shields.io/badge/HackerRank-Gautam-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white">
+<img src="https://img.shields.io/badge/HackerRank-Gautam-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank">
 </a>
 
 <a href="https://codolio.com/profile/Gautam0804">
-<img src="https://img.shields.io/badge/Codolio-Gautam0804-6C5CE7?style=for-the-badge">
+<img src="https://img.shields.io/badge/Codolio-Gautam0804-6C5CE7?style=for-the-badge" alt="Codolio">
 </a>
 
 </p>
@@ -375,11 +362,11 @@ AI/ML-Based Traffic Intelligence
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/300%2B%20DSA%20Problems-Solved-ff4db8?style=for-the-badge">
+<img src="https://img.shields.io/badge/300%2B%20DSA%20Problems-Solved-ff4db8?style=for-the-badge" alt="300+ DSA Problems">
 
-<img src="https://img.shields.io/badge/Java-Problem%20Solving-007396?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/Java-Problem%20Solving-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java">
 
-<img src="https://img.shields.io/badge/Competitive-Programming-6C5CE7?style=for-the-badge">
+<img src="https://img.shields.io/badge/Competitive-Programming-6C5CE7?style=for-the-badge" alt="Competitive Programming">
 
 </p>
 
@@ -389,35 +376,50 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
 
 ---
 
-## > github-stats.exe
+# > github-stats.exe
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Gautam0804&show_icons=true&theme=radical&hide_border=true" width="48%">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Gautam0804&layout=compact&theme=radical&hide_border=true" width="48%">
+  <img
+    src="./github-metrics.svg"
+    alt="Gautam Kumar Yadav GitHub Statistics"
+    width="100%"
+  />
 </p>
 
 ---
 
-## > github-streak.exe
+# > github-streak.exe
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Gautam0804&theme=radical&hide_border=true&border_radius=5&card_width=600" width="75%">
+  <img
+    src="https://streak-stats.demolab.com?user=Gautam0804&hide_border=true&border_radius=5&card_width=600"
+    alt="GitHub Streak"
+    width="75%"
+  />
 </p>
 
 ---
 
-## > leetcode-stats.py
+# > leetcode-stats.py
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/Gautam_Yadav8?theme=dark&font=Baloo&ext=heatmap" width="70%">
+  <img
+    src="https://leetcard.jacoblin.cool/Gautam_Yadav8?theme=dark&font=Baloo&ext=heatmap"
+    alt="LeetCode Statistics"
+    width="70%"
+  />
 </p>
 
 ---
 
-## > contribution-graph.exe
+# > contribution-graph.exe
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gautam0804&theme=react-dark&hide_border=true&area=true" width="100%">
+  <img
+    src="./contribution-graph.svg"
+    alt="Gautam Kumar Yadav GitHub Contribution Graph"
+    width="100%"
+  />
 </p>
 
 ---
@@ -426,15 +428,15 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/DSA-300%2B%20Problems-ff4db8?style=for-the-badge">
+<img src="https://img.shields.io/badge/DSA-300%2B%20Problems-ff4db8?style=for-the-badge" alt="DSA">
 
-<img src="https://img.shields.io/badge/Google-Generative%20AI-4285F4?style=for-the-badge">
+<img src="https://img.shields.io/badge/Google-Generative%20AI-4285F4?style=for-the-badge" alt="Google Generative AI">
 
-<img src="https://img.shields.io/badge/Google%20Solution%20Challenge-2025-6C5CE7?style=for-the-badge">
+<img src="https://img.shields.io/badge/Google%20Solution%20Challenge-2025-6C5CE7?style=for-the-badge" alt="Google Solution Challenge 2025">
 
-<img src="https://img.shields.io/badge/HackIndia-2025-181717?style=for-the-badge">
+<img src="https://img.shields.io/badge/HackIndia-2025-181717?style=for-the-badge" alt="HackIndia 2025">
 
-<img src="https://img.shields.io/badge/Adobe%20University%20Hackathon-2026-FF0000?style=for-the-badge">
+<img src="https://img.shields.io/badge/Adobe%20University%20Hackathon-2026-FF0000?style=for-the-badge" alt="Adobe University Hackathon 2026">
 
 </p>
 
@@ -456,7 +458,10 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
 
 <p align="center">
   <a href="https://codolio.com/profile/Gautam0804/card">
-    <img src="https://img.shields.io/badge/CODOLIO-VIEW%20MY%20LIVE%20CARD-8A2BE2?style=for-the-badge">
+    <img
+      src="https://img.shields.io/badge/CODOLIO-VIEW%20MY%20LIVE%20CARD-8A2BE2?style=for-the-badge"
+      alt="Codolio Live Card"
+    >
   </a>
 </p>
 
@@ -467,19 +472,22 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
 <p align="center">
 
 <a href="mailto:gautamcodesin@gmail.com">
-<img src="https://img.shields.io/badge/gautamcodesin%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+<img src="https://img.shields.io/badge/gautamcodesin%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
 </p>
 
 <p align="center">
-<code>~$ build • solve • learn • improve</code>
+  <code>~$ build • solve • learn • improve</code>
 </p>
 
 <p align="center">
-Thanks for visiting my profile! 🚀
+  Thanks for visiting my profile! 🚀
 </p>
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"
+    alt="Footer"
+  >
 </p>
