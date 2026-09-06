@@ -380,7 +380,7 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
 
 <p align="center">
   <img
-    src="./github-metrics.svg"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Gautam0804&theme=tokyonight"
     alt="Gautam Kumar Yadav GitHub Statistics"
     width="100%"
   />
@@ -392,7 +392,7 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=Gautam0804&hide_border=true&border_radius=5&card_width=600"
+    src="https://streak-stats.demolab.com?user=Gautam0804&theme=tokyonight&hide_border=true&border_radius=5&card_width=600"
     alt="GitHub Streak"
     width="75%"
   />
@@ -407,18 +407,6 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
     src="https://leetcard.jacoblin.cool/Gautam_Yadav8?theme=dark&font=Baloo&ext=heatmap"
     alt="LeetCode Statistics"
     width="70%"
-  />
-</p>
-
----
-
-# > contribution-graph.exe
-
-<p align="center">
-  <img
-    src="./contribution-graph.svg"
-    alt="Gautam Kumar Yadav GitHub Contribution Graph"
-    width="100%"
   />
 </p>
 
@@ -461,7 +449,7 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
     <img
       src="https://img.shields.io/badge/CODOLIO-VIEW%20MY%20LIVE%20CARD-8A2BE2?style=for-the-badge"
       alt="Codolio Live Card"
-    >
+    />
   </a>
 </p>
 
