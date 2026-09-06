@@ -1,0 +1,47 @@
+name: GitHub Profile Stats
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          user: Gautam0804
+
+          base: header, activity, community, repositories
+
+          config_timezone: Asia/Kolkata
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Generate Contribution Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: contribution-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          user: Gautam0804
+
+          base: ""
+
+          config_timezone: Asia/Kolkata
+
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
