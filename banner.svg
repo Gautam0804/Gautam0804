@@ -1,362 +1,401 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360"
-     xmlns="http://www.w3.org/2000/svg">
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Gautam Yadav GitHub profile banner">
   <defs>
-
-    <linearGradient id="background"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07090d"/>
-      <stop offset="50%" stop-color="#0b0f16"/>
-      <stop offset="100%" stop-color="#07090d"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b12"/>
+      <stop offset="52%" stop-color="#0b111b"/>
+      <stop offset="100%" stop-color="#05080d"/>
     </linearGradient>
 
-    <linearGradient id="accent"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="0%">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="50%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
 
-    <radialGradient id="blueGlow">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    <linearGradient id="nameGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="65%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
 
-    <pattern id="grid"
-             width="40"
-             height="40"
-             patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40"
-            fill="none"
-            stroke="#ffffff"
-            stroke-opacity="0.025"
-            stroke-width="1"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".055"/>
     </pattern>
 
-    <filter id="softGlow"
-            x="-100%"
-            y="-100%"
-            width="300%"
-            height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono","Fira Code","SFMono-Regular",Consolas,monospace;
+      }
+
+      .sans {
+        font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      }
+
+      .muted {
+        fill:#64748b;
+      }
+
+      .line {
+        stroke:#334155;
+        stroke-opacity:.55;
+        fill:none;
+      }
+    </style>
   </defs>
 
-  <!-- BACKGROUND -->
+  <!-- Background -->
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
 
-  <rect x="0"
-        y="0"
-        width="1200"
-        height="360"
-        rx="18"
-        fill="url(#background)"/>
+  <!-- Ambient light -->
+  <circle
+    cx="930"
+    cy="95"
+    r="230"
+    fill="url(#orb)"
+    filter="url(#softGlow)"
+  />
 
-  <circle cx="70"
-          cy="70"
-          r="260"
-          fill="url(#blueGlow)"/>
+  <circle
+    cx="220"
+    cy="300"
+    r="180"
+    fill="url(#orb)"
+    opacity=".35"
+    filter="url(#softGlow)"
+  />
 
-  <circle cx="1130"
-          cy="300"
-          r="250"
-          fill="url(#blueGlow)"/>
+  <!-- Terminal frame -->
+  <rect
+    x="22"
+    y="22"
+    width="1156"
+    height="316"
+    rx="15"
+    fill="none"
+    stroke="#334155"
+    stroke-opacity=".75"
+  />
 
-  <rect x="0"
-        y="0"
-        width="1200"
-        height="360"
-        fill="url(#grid)"/>
+  <rect
+    x="23"
+    y="23"
+    width="1154"
+    height="44"
+    rx="14"
+    fill="#0f172a"
+    fill-opacity=".78"
+  />
 
-  <!-- OUTER BORDER -->
+  <path
+    d="M23 67H1177"
+    stroke="#334155"
+    stroke-opacity=".7"
+  />
 
-  <rect x="18"
-        y="18"
-        width="1164"
-        height="324"
-        rx="17"
-        fill="none"
-        stroke="#26303d"
-        stroke-width="1"/>
+  <!-- Window controls -->
+  <circle cx="48" cy="45" r="5" fill="#475569"/>
+  <circle cx="66" cy="45" r="5" fill="#475569"/>
+  <circle cx="84" cy="45" r="5" fill="#475569"/>
 
-  <rect x="19"
-        y="19"
-        width="1162"
-        height="322"
-        rx="16"
-        fill="none"
-        stroke="url(#accent)"
-        stroke-width="1"
-        opacity="0.35"/>
-
-  <!-- TERMINAL HEADER -->
-
-  <rect x="48"
-        y="43"
-        width="1104"
-        height="38"
-        rx="8"
-        fill="#0d1117"
-        stroke="#202733"
-        stroke-width="1"/>
-
-  <circle cx="71"
-          cy="62"
-          r="5"
-          fill="#ff5f57"/>
-
-  <circle cx="91"
-          cy="62"
-          r="5"
-          fill="#febc2e"/>
-
-  <circle cx="111"
-          cy="62"
-          r="5"
-          fill="#28c840"/>
-
-  <text x="600"
-        y="66"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="11"
-        letter-spacing="1.5"
-        fill="#667085">
+  <!-- Terminal title -->
+  <text
+    x="104"
+    y="50"
+    class="mono"
+    font-size="12"
+    fill="#94a3b8"
+    letter-spacing=".8"
+  >
     GAUTAM YADAV ~/profile
   </text>
 
-  <!-- COMMAND -->
+  <text
+    x="1116"
+    y="50"
+    class="mono"
+    font-size="11"
+    fill="#475569"
+    text-anchor="end"
+  >
+    main
+  </text>
 
-  <text x="92"
-        y="119"
-        font-family="monospace"
-        font-size="15"
-        font-weight="700"
-        fill="#22d3ee">
+  <!-- Terminal command -->
+  <text
+    x="62"
+    y="101"
+    class="mono"
+    font-size="14"
+    fill="#22d3ee"
+  >
     $
   </text>
 
-  <text x="112"
-        y="119"
-        font-family="monospace"
-        font-size="15"
-        fill="#98a2b3">
+  <text
+    x="79"
+    y="101"
+    class="mono"
+    font-size="14"
+    fill="#cbd5e1"
+  >
     whoami
   </text>
 
-  <!-- NAME -->
-
-  <text x="600"
-        y="177"
-        text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="58"
-        font-weight="700"
-        letter-spacing="0.5"
-        fill="#f8fafc">
-    Gautam Yadav
-  </text>
-
-  <!-- NAME ACCENT -->
-
-  <rect x="470"
-        y="193"
-        width="260"
-        height="2"
-        rx="1"
-        fill="url(#accent)"
-        opacity="0.9">
-
-    <animate
-      attributeName="width"
-      values="260;300;260"
-      dur="5s"
-      repeatCount="indefinite"/>
-
-    <animate
-      attributeName="x"
-      values="470;450;470"
-      dur="5s"
-      repeatCount="indefinite"/>
-
-  </rect>
-
-  <!-- PROFESSIONAL TITLE -->
-
-  <text x="600"
-        y="232"
-        text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="18"
-        font-weight="600"
-        fill="#cbd5e1">
-    Software Engineer
-    <tspan fill="#475569"> • </tspan>
-    Full Stack Developer
-    <tspan fill="#475569"> • </tspan>
-    AI/ML Enthusiast
-  </text>
-
-  <!-- TECH STACK -->
-
-  <text x="600"
-        y="263"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="14"
-        fill="#7f8ea3">
-    Java
-    <tspan fill="#334155"> • </tspan>
-    Python
-    <tspan fill="#334155"> • </tspan>
-    React
-    <tspan fill="#334155"> • </tspan>
-    Node.js
-    <tspan fill="#334155"> • </tspan>
-    MongoDB
-    <tspan fill="#334155"> • </tspan>
-    AI/ML
-  </text>
-
-  <!-- STATUS -->
-
-  <circle cx="565"
-          cy="294"
-          r="4"
-          fill="#22c55e"
-          filter="url(#softGlow)"/>
-
-  <text x="577"
-        y="298"
-        font-family="monospace"
-        font-size="12"
-        fill="#64748b">
-    building • solving • learning
-  </text>
-
-  <!-- LEFT CIRCUITS -->
-
-  <path d="M48 268 H115 V248 H155"
-        fill="none"
-        stroke="#22d3ee"
-        stroke-width="1"
-        opacity="0.35"/>
-
-  <circle cx="155"
-          cy="248"
-          r="2.5"
-          fill="#22d3ee"
-          opacity="0.8"/>
-
-  <path d="M48 290 H92 V310 H135"
-        fill="none"
-        stroke="#6366f1"
-        stroke-width="1"
-        opacity="0.25"/>
-
-  <!-- RIGHT CIRCUITS -->
-
-  <path d="M1152 103 H1080 V123 H1045"
-        fill="none"
-        stroke="#6366f1"
-        stroke-width="1"
-        opacity="0.35"/>
-
-  <circle cx="1045"
-          cy="123"
-          r="2.5"
-          fill="#6366f1"
-          opacity="0.8"/>
-
-  <path d="M1152 276 H1090 V300 H1050"
-        fill="none"
-        stroke="#22d3ee"
-        stroke-width="1"
-        opacity="0.25"/>
-
-  <!-- DATA POINTS -->
-
-  <circle cx="190"
-          cy="160"
-          r="1.8"
-          fill="#22d3ee"
-          opacity="0.65">
-
-    <animate
-      attributeName="opacity"
-      values="0.25;0.8;0.25"
-      dur="3s"
-      repeatCount="indefinite"/>
-
-  </circle>
-
-  <circle cx="1010"
-          cy="175"
-          r="1.8"
-          fill="#6366f1"
-          opacity="0.65">
-
-    <animate
-      attributeName="opacity"
-      values="0.25;0.8;0.25"
-      dur="4s"
-      repeatCount="indefinite"/>
-
-  </circle>
-
-  <!-- CORNER MARKERS -->
-
-  <path d="M48 100 V120"
-        stroke="#22d3ee"
-        stroke-width="2"
-        opacity="0.65"/>
-
-  <path d="M1152 240 V260"
-        stroke="#6366f1"
-        stroke-width="2"
-        opacity="0.65"/>
-
-  <!-- BOTTOM ACCENT -->
-
-  <line x1="430"
-        y1="325"
-        x2="770"
-        y2="325"
-        stroke="url(#accent)"
-        stroke-width="1.5"
-        opacity="0.75"
-        filter="url(#softGlow)"/>
-
-  <line x1="530"
-        y1="325"
-        x2="670"
-        y2="325"
-        stroke="#ffffff"
-        stroke-width="1"
-        opacity="0.12"/>
-
-  <!-- CURSOR -->
-
-  <rect x="735"
-        y="286"
-        width="7"
-        height="15"
-        rx="1"
-        fill="#22d3ee"
-        opacity="0.9">
-
+  <!-- Blinking cursor -->
+  <rect
+    x="145"
+    y="89"
+    width="7"
+    height="15"
+    rx="1"
+    fill="#60a5fa"
+  >
     <animate
       attributeName="opacity"
       values="1;0;1"
-      dur="1s"
-      repeatCount="indefinite"/>
-
+      dur="1.15s"
+      repeatCount="indefinite"
+    />
   </rect>
 
+  <!-- Main identity -->
+  <text
+    x="600"
+    y="159"
+    class="sans"
+    font-size="44"
+    font-weight="700"
+    fill="url(#nameGlow)"
+    text-anchor="middle"
+    letter-spacing="-1.2"
+  >
+    Gautam Yadav
+  </text>
+
+  <!-- Professional title -->
+  <text
+    x="600"
+    y="191"
+    class="mono"
+    font-size="15"
+    fill="#93c5fd"
+    text-anchor="middle"
+  >
+    Software Engineer • Full Stack Developer • AI/ML Engineer
+  </text>
+
+  <!-- Animated underline -->
+  <path
+    d="M315 210H885"
+    stroke="#1e293b"
+    stroke-width="1"
+  />
+
+  <path
+    d="M390 210H810"
+    stroke="url(#accent)"
+    stroke-width="2"
+    stroke-linecap="round"
+    filter="url(#glow)"
+  >
+    <animate
+      attributeName="stroke-dasharray"
+      values="0 420;420 0;0 420"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+  </path>
+
+  <!-- Tech stack -->
+  <text
+    x="600"
+    y="241"
+    class="mono"
+    font-size="13"
+    fill="#cbd5e1"
+    text-anchor="middle"
+  >
+    Java • Python • React • Node.js • PostgreSQL • RAG • AI/ML
+  </text>
+
+  <!-- Status indicator -->
+  <circle
+    cx="505"
+    cy="274"
+    r="4"
+    fill="#22d3ee"
+    filter="url(#glow)"
+  >
+    <animate
+      attributeName="opacity"
+      values=".35;1;.35"
+      dur="1.8s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <text
+    x="518"
+    y="279"
+    class="mono"
+    font-size="12"
+    fill="#64748b"
+  >
+    building
+  </text>
+
+  <text
+    x="590"
+    y="279"
+    class="mono"
+    font-size="12"
+    fill="#475569"
+  >
+    •
+  </text>
+
+  <text
+    x="609"
+    y="279"
+    class="mono"
+    font-size="12"
+    fill="#64748b"
+  >
+    solving
+  </text>
+
+  <text
+    x="678"
+    y="279"
+    class="mono"
+    font-size="12"
+    fill="#475569"
+  >
+    •
+  </text>
+
+  <text
+    x="697"
+    y="279"
+    class="mono"
+    font-size="12"
+    fill="#64748b"
+  >
+    learning
+  </text>
+
+  <!-- LEFT CIRCUIT -->
+
+  <g class="line">
+    <path d="M62 139H184V122H235"/>
+    <path d="M62 155H137V177H215"/>
+    <path d="M62 303H154V286H203V300H250"/>
+    <path d="M62 319H112V296H168"/>
+    <path d="M109 122V108H137"/>
+    <path d="M183 177V194H224"/>
+  </g>
+
+  <g fill="#22d3ee">
+    <circle cx="62" cy="139" r="3" filter="url(#glow)"/>
+    <circle cx="62" cy="155" r="3"/>
+    <circle cx="62" cy="303" r="3" filter="url(#glow)"/>
+    <circle cx="62" cy="319" r="3"/>
+    <circle cx="235" cy="122" r="3"/>
+    <circle cx="215" cy="177" r="3"/>
+    <circle cx="250" cy="300" r="3"/>
+  </g>
+
+  <!-- RIGHT CIRCUIT -->
+
+  <g class="line">
+    <path d="M1138 132H1055V116H1005"/>
+    <path d="M1138 150H1080V174H1015"/>
+    <path d="M1138 300H1060V283H1002V299H952"/>
+    <path d="M1138 319H1088V294H1030"/>
+    <path d="M1091 116V102H1060"/>
+    <path d="M1015 174V193H978"/>
+  </g>
+
+  <g fill="#60a5fa">
+    <circle cx="1138" cy="132" r="3" filter="url(#glow)"/>
+    <circle cx="1138" cy="150" r="3"/>
+    <circle cx="1138" cy="300" r="3" filter="url(#glow)"/>
+    <circle cx="1138" cy="319" r="3"/>
+    <circle cx="1005" cy="116" r="3"/>
+    <circle cx="1015" cy="174" r="3"/>
+    <circle cx="952" cy="299" r="3"/>
+  </g>
+
+  <!-- Data labels -->
+  <g
+    class="mono"
+    font-size="9"
+    fill="#475569"
+  >
+    <text x="88" y="137">01</text>
+    <text x="95" y="313">101</text>
+    <text x="1087" y="130">AI</text>
+    <text x="1075" y="314">API</text>
+  </g>
+
+  <!-- Bottom metadata -->
+  <path
+    d="M62 310H365"
+    stroke="#1e293b"
+  />
+
+  <path
+    d="M835 310H1138"
+    stroke="#1e293b"
+  />
+
+  <text
+    x="62"
+    y="326"
+    class="mono"
+    font-size="9"
+    fill="#334155"
+  >
+    01 / SOFTWARE
+  </text>
+
+  <text
+    x="1138"
+    y="326"
+    class="mono"
+    font-size="9"
+    fill="#334155"
+    text-anchor="end"
+  >
+    AI • SYSTEMS • ENGINEERING
+  </text>
+
+  <!-- Bottom accent -->
+  <rect
+    x="22"
+    y="336"
+    width="1156"
+    height="2"
+    rx="1"
+    fill="url(#accent)"
+    opacity=".8"
+  />
 </svg>
