@@ -3,54 +3,57 @@
 </p>
 
 <h2 align="center">
-  Software Engineer | Full Stack Developer | AI/ML Enthusiast
+  Software Engineer | Full Stack Developer | AI/ML Engineer
 </h2>
 
 <p align="center">
-  Building full-stack applications, backend systems, and AI/ML-powered solutions.
+  Building production-oriented full-stack, backend, and AI-powered systems.
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Gautam0804&label=PROFILE%20VIEWS&color=ff4db8&style=flat-square" alt="Profile Views">
 </p>
 
----
-
-## > About
-
+> About
 <pre>
 Name: Gautam Kumar Yadav
-Role: Software Engineer | Full Stack Developer | AI/ML Enthusiast
+Role: Software Engineer | Full Stack Developer | AI/ML Engineer
 
-I build:
+I build production-oriented software systems combining:
   - Full-stack web applications
   - Backend services and REST APIs
   - AI / ML-powered applications
-  - Data-driven software systems
+  - RAG and document intelligence systems
+  - Data-driven and intelligent software platforms
 
 Core Focus:
   - Software Engineering
   - Full Stack Development
-  - Backend Development
+  - Backend Engineering
   - Java & Python
   - AI / Machine Learning
+  - Generative AI & RAG
   - Data Structures & Algorithms
-  - Problem Solving
+  - System Design
 
 Currently:
-  - Building production-oriented software systems
-  - Developing AI/ML applications
-  - Strengthening backend and system design
+  - Building AI-powered production-oriented applications
+  - Developing scalable backend services and APIs
+  - Working with RAG, vector search, and ML inference
+  - Strengthening system design and backend architecture
   - Solving DSA and competitive programming problems
 
+Featured Work:
+  - Nexora AI — AI Document Intelligence & Semantic Search
+  - RiskForge — Real-Time AI Fraud Detection & Risk Intelligence
+  - RouteX — Fleet Operations Platform
+  - PredictX — AI Predictive Maintenance
+
 Open to:
-  Software Engineering | Software Development | Full Stack | AI/ML Opportunities
+  Software Engineering | Full Stack | Backend | AI/ML Opportunities
 </pre>
 
----
-
-## > find-me-here
-
+> find-me-here
 <p align="center">
 
 <a href="https://gautam-portfolio-self.vercel.app/">
@@ -91,30 +94,23 @@ Open to:
 
 </p>
 
----
-
-# > tech-stack.json
-
-### Languages
-
+> tech-stack.json
+Languages
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,python,c,html,css,js" alt="Languages">
 </p>
 
-### Frontend & Backend
-
+Frontend & Backend
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind" alt="Frontend and Backend">
 </p>
 
-### Databases & Tools
-
+Databases & Tools
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis,docker,git,github,vscode" alt="Databases and Tools">
 </p>
 
-### AI / ML
-
+AI / ML
 <p align="center">
 
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
@@ -127,6 +123,12 @@ Open to:
 
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
 
+<img src="https://img.shields.io/badge/RAG-6C5CE7?style=flat-square" alt="RAG">
+
+<img src="https://img.shields.io/badge/pgvector-336791?style=flat-square" alt="pgvector">
+
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square" alt="Ollama">
+
 <img src="https://img.shields.io/badge/REST%20API-ff4db8?style=flat-square" alt="REST API">
 
 <img src="https://img.shields.io/badge/JWT-000000?style=flat-square" alt="JWT">
@@ -137,12 +139,58 @@ Open to:
 
 </p>
 
----
-
-# > pinned-projects.tsx
-
+> pinned-projects.tsx
 <table>
 <tr>
+
+<td width="50%" valign="top">
+
+<h3>📚 Nexora AI</h3>
+
+<p>
+<b>AI-Powered Document Intelligence & Semantic Search Platform</b>
+</p>
+
+<p>
+Production-oriented full-stack AI platform for uploading private PDF documents,
+extracting and chunking content, generating semantic embeddings, performing
+vector search, and answering questions with RAG-based AI responses and
+document/page-level citations.
+</p>
+
+<p>
+<b>Tech Stack</b><br>
+Next.js • React • TypeScript • Tailwind CSS<br>
+Node.js • Express.js • PostgreSQL • pgvector<br>
+Python • FastAPI • Sentence Transformers<br>
+Supabase Storage • Ollama • Qwen 2.5 3B
+</p>
+
+<p>
+<b>Engineering</b><br>
+JWT Authentication & bcrypt Password Hashing<br>
+Protected REST APIs & User-Level Authorization<br>
+Private PDF Storage with Signed URLs<br>
+Page-Level PDF Extraction & Overlapping Chunking<br>
+384D BGE Embeddings & pgvector Similarity Search<br>
+RAG-Based Question Answering<br>
+Document + Page-Level Source Citations<br>
+AI Query Persistence & Usage Statistics
+</p>
+
+<p>
+<b>AI Pipeline</b><br>
+PDF → Extraction → Chunking → BGE Embeddings → pgvector<br>
+Question → Embedding → Similarity Search → Context → Qwen 2.5 3B → Cited Answer
+</p>
+
+<p align="center">
+<a href="https://github.com/Gautam0804/Nexora-AI">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Nexora AI">
+</a>
+</p>
+
+</td>
 
 <td width="50%" valign="top">
 
@@ -183,6 +231,10 @@ Risk & Alert Workflows
 
 </td>
 
+</tr>
+
+<tr>
+
 <td width="50%" valign="top">
 
 <h3>🚚 RouteX</h3>
@@ -220,10 +272,6 @@ Tracking & Alerts
 </p>
 
 </td>
-
-</tr>
-
-<tr>
 
 <td width="50%" valign="top">
 
@@ -263,50 +311,10 @@ FastAPI ML Inference
 
 </td>
 
-<td width="50%" valign="top">
-
-<h3>🚦 AI Smart Traffic System</h3>
-
-<p>
-<b>Computer Vision & Traffic Monitoring Platform</b>
-</p>
-
-<p>
-AI-powered traffic monitoring system focused on vehicle detection,
-computer vision, and traffic analysis.
-</p>
-
-<p>
-<b>Tech Stack</b><br>
-Python • OpenCV • Machine Learning<br>
-React.js
-</p>
-
-<p>
-<b>Engineering</b><br>
-Vehicle Detection<br>
-Computer Vision Processing<br>
-Traffic Monitoring<br>
-Vehicle Activity Analysis<br>
-Real-Time Traffic Analysis<br>
-AI/ML-Based Traffic Intelligence
-</p>
-
-<p align="center">
-<a href="YOUR-SMART-TRAFFIC-REPOSITORY">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="AI Smart Traffic System">
-</a>
-</p>
-
-</td>
-
 </tr>
 </table>
 
----
-
-## > engineering-focus.exe
-
+> engineering-focus.exe
 <p align="center">
 
 <img src="https://img.shields.io/badge/FULL--STACK-ff4db8?style=for-the-badge" alt="Full Stack">
@@ -328,10 +336,7 @@ AI/ML-Based Traffic Intelligence
 06  Continuously improve projects through iteration
 </pre>
 
----
-
-## > coding-profiles.exe
-
+> coding-profiles.exe
 <p align="center">
 
 <a href="https://leetcode.com/u/Gautam_Yadav8/">
@@ -356,10 +361,7 @@ AI/ML-Based Traffic Intelligence
 
 </p>
 
----
-
-## > problem-solving.exe
-
+> problem-solving.exe
 <p align="center">
 
 <img src="https://img.shields.io/badge/300%2B%20DSA%20Problems-Solved-ff4db8?style=for-the-badge" alt="300+ DSA Problems">
@@ -374,10 +376,7 @@ AI/ML-Based Traffic Intelligence
 Consistent practice of Data Structures, Algorithms and competitive programming.
 </p>
 
----
-
-# > github-stats.exe
-
+> github-stats.exe
 <p align="center">
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Gautam0804&theme=tokyonight"
@@ -386,10 +385,7 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
   />
 </p>
 
----
-
-# > github-streak.exe
-
+> github-streak.exe
 <p align="center">
   <img
     src="https://streak-stats.demolab.com?user=Gautam0804&theme=tokyonight&hide_border=true&border_radius=5&card_width=600"
@@ -398,22 +394,31 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
   />
 </p>
 
----
-
-# > leetcode-stats.py
-
+> leetcode-stats.py
 <p align="center">
-  <img
-    src="https://leetcard.jacoblin.cool/Gautam_Yadav8?theme=dark&font=Baloo&ext=heatmap"
-    alt="LeetCode Statistics"
-    width="70%"
-  />
+
+  <a href="https://leetcode.com/u/Gautam_Yadav8/">
+    <img
+      src="https://leetcard.jacoblin.cool/Gautam_Yadav8?theme=dark&font=Baloo&ext=heatmap"
+      alt="Gautam Yadav LeetCode Statistics and Heatmap"
+      width="75%"
+    />
+  </a>
+
 </p>
 
----
+<p align="center">
 
-## > achievements.json
+  <a href="https://leetcode.com/u/Gautam_Yadav8/">
+    <img
+      src="https://img.shields.io/badge/LeetCode-Gautam_Yadav8-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"
+      alt="LeetCode Profile"
+    />
+  </a>
 
+</p>
+
+> achievements.json
 <p align="center">
 
 <img src="https://img.shields.io/badge/DSA-300%2B%20Problems-ff4db8?style=for-the-badge" alt="DSA">
@@ -428,10 +433,7 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
 
 </p>
 
----
-
-## > currently-learning.exe
-
+> currently-learning.exe
 <pre>
 01  Advanced Data Structures
 02  System Design
@@ -440,10 +442,7 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
 05  Competitive Programming
 </pre>
 
----
-
-## > codolio.exe
-
+> codolio.exe
 <p align="center">
   <a href="https://codolio.com/profile/Gautam0804/card">
     <img
@@ -453,10 +452,7 @@ Consistent practice of Data Structures, Algorithms and competitive programming.
   </a>
 </p>
 
----
-
-## > contact.exe
-
+> contact.exe
 <p align="center">
 
 <a href="mailto:gautamcodesin@gmail.com">
