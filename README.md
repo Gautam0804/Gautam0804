@@ -241,6 +241,18 @@ flowchart LR
   <img src="https://streak-stats.demolab.com?user=Gautam0804&theme=tokyonight&hide_border=true&border_radius=5&card_width=600" alt="GitHub Streak" width="75%" />
 </p>
 
+### 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Gautam0804/Gautam0804/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Gautam0804/Gautam0804/actions/workflows/snake.yml">
+    <img src="https://img.shields.io/badge/Contribution%20Snake-GitHub%20Actions-ff4db8?style=for-the-badge&logo=github&logoColor=white" alt="Contribution Snake Workflow">
+  </a>
+</p>
+
 <p align="center">
   <a href="https://leetcode.com/u/Gautam_Yadav8/">
     <img src="https://leetcard.jacoblin.cool/Gautam_Yadav8?theme=dark&font=Baloo&ext=heatmap" alt="LeetCode Statistics and Heatmap" width="75%" />
