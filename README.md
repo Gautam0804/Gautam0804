@@ -54,7 +54,7 @@
 | **🟢 Open to** | Software Engineering · Full Stack · Backend · AI/ML roles |
 | **💪 Strongest at** | Backend APIs (Node.js / FastAPI), RAG & vector search, ML model integration, secure auth (JWT + RBAC) |
 | **🛠️ Core languages** | Java · Python · JavaScript / TypeScript |
-| **🏆 Proof of work** | 300+ DSA problems · Google Solution Challenge 2025 · HackIndia 2025 · Adobe University Hackathon 2026 |
+| **🏆 Proof of work** | 500+ DSA problems · Google Solution Challenge 2025 · HackIndia 2025 · Adobe University Hackathon 2026 |
 | **🚀 Flagship project** | [Nexora AI](https://github.com/Gautam0804/Nexora-AI) — private-document RAG platform with page-level citations |
 | **📬 Fastest way to reach me** | [gautamcodesin@gmail.com](mailto:gautamcodesin@gmail.com) |
 
